@@ -14,7 +14,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return jsonify({"message":"API Search Engine by Kates"})
+    return jsonify({"message":"Search Engine API by ardikabs"})
 
 from api.views import api
 app.register_blueprint(api)
